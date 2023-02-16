@@ -10,7 +10,7 @@ The goal of this challenge is to demonstrate your skills as a platform engineer 
 
 You have been tasked with deploying this service, a HTTP server and Postgres database, to a cloud environment so that the HTTP API is publicly accessible. You should aim to automate the process of deploying this service, following CI/CD and Infrastructure as Code (IaC) practices.
 
-- You can use any cloud provider or platform, many offer a free trial
+- You can use any cloud provider or platform, many offer a free trial, for example (but not limited to):
   - https://aws.amazon.com/free
   - https://azure.microsoft.com/account/free
   - https://cloud.google.com/free
