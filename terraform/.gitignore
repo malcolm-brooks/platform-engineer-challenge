@@ -1,0 +1,8 @@
+.terraform/providers
+terraform.tfstate*
+*.zip
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
