@@ -114,14 +114,20 @@ resource "aws_elastic_beanstalk_environment" "simple_http_server_production" {
 
   setting {
     namespace = "aws:rds:dbinstance"
-    name      = "DBUser"
-    value     = "postgres"
+    name      = "DBPassword"
+    value     = random_password.db.result
   }
 
   setting {
     namespace = "aws:rds:dbinstance"
-    name      = "DBPassword"
-    value     = random_password.db.result
+    name      = "DBSnapshotIdentifier"
+    value     = var.db_snapshot_identifier
+  }
+
+  setting {
+    namespace = "aws:rds:dbinstance"
+    name      = "DBUser"
+    value     = "postgres"
   }
 
   setting {
