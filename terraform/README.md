@@ -28,6 +28,6 @@ In the final deployment we create the database from a snapshot so these steps ar
 
 # CI/CD
 
-I have not automated the deployment runs at this time. During our initial discussion I was told that you already had automation wrapping Terraform for deployments so i chose to focus the available time on creating a working Terraform config rather than reinventing the CI/CD wheele.
+I have not automated the deployment runs at this time. During our initial discussion I was told that you already had automation wrapping Terraform for deployments so I chose to focus the available time on creating a working Terraform config rather than reinventing the CI/CD wheel.
 
 If we did need to add this layer then we could wrap the terraform apply in a Github Action, or use AWS Pipelines and Github webhooks.
